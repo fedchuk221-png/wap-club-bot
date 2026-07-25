@@ -19,7 +19,7 @@ function clearState(chatId) {
 }
 
 function getLang(chatId) {
-  return langMap.get(String(chatId)) || "ru";
+  return langMap.get(String(chatId)) || "ua";
 }
 function setLang(chatId, lang) {
   langMap.set(String(chatId), lang);
